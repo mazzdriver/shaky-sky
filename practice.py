@@ -1,3 +1,25 @@
+# # 7 kyu Disemvowel Trolls
+# Trolls are attacking your comment section!
+# A common way to deal with this situation is to remove all
+# of the vowels from the trolls' comments, neutralizing the threat.
+# Your task is to write a function that takes a string and
+# return a new string with all vowels removed.
+# For example, the string "This website is for losers LOL!"
+# would become "Ths wbst s fr lsrs LL!".
+# Note: for this kata y isn't considered a vowel.
+
+
+def disemvowel(string_):    # my solution
+    vowels = {'a', 'A', 'o', 'O', 'u', 'U', 'i', 'I', 'e', 'E'}
+    for i in vowels:
+        string_ = string_.replace(i, '')
+    return string_
+
+
+def cw_disemvowel(string):  # less strings but looks harders
+    return "".join(c for c in string if c.lower() not in "aeiou")
+
+
 # # 8 kyu Keep Hydrated!
 # Nathan loves cycling.
 # Because Nathan knows it is important to stay hydrated, he
@@ -6,7 +28,7 @@
 # number of litres Nathan will drink, rounded to the smallest value.
 
 
-def litres(time):
+def litres(time):           # only my perfect solution idk
     return time // 2
 
 
@@ -14,7 +36,7 @@ def litres(time):
 # Write a function which converts the input string to uppercase.
 
 
-def make_upper_case(s):
+def make_upper_case(s):     # only my perfect solution idk
     return s.upper()
 
 

@@ -1,0 +1,25 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "c3e3cc333f81bd51df6a79e86b5720e5636597f011a0d300c1e92ccadfe57a7d"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.10"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "codewars-test": {
+            "git": "https://github.com/codewars/python-test-framework.git",
+            "ref": "3e2ceebd6e6eda7b5058792d1d23a48be8eefa6a"
+        }
+    },
+    "develop": {}
+}

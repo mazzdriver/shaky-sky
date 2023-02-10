@@ -1,3 +1,11 @@
+# # 8 kyu MakeUpperCase
+# Write a function which converts the input string to uppercase.
+
+
+def make_upper_case(s):
+    return s.upper()
+
+
 # # 8 kyu Returning Strings
 # Make a function that will return a greeting statement
 # that uses an input; your program should return,

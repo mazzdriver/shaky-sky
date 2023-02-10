@@ -1,3 +1,23 @@
+# # 7 kyu You're a square!
+# Task
+# Given an integral number, determine if it's a square number:
+# # In mathematics, a square number or perfect square is an integer
+# # that is the square of an integer; in other words, it is
+# # the product of some integer with itself.
+
+
+def is_square(n: int):      # my solution
+    if n < 0:
+        return False
+    if n == 0:
+        return True
+    return n**0.5 == round(n**0.5)
+
+
+def cw_is_square(n):        # looks smarter
+    return n > -1 and n**0.5 % 1 == 0
+
+
 # # 6 kyu Detect Pangram
 # A pangram is a sentence that contains every single letter of
 # the alphabet at least once. For example, the sentence
